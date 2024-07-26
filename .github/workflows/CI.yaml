@@ -61,4 +61,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.R_TOKEN }}
       with:
         tag_name: Padavan
-        files: /home/runner/work/Padavan/Padavan/trunk/images/RM2100_3.4.3.9-099.trx
+        files: /home/runner/work/Padavan/Padavan/trunk/images/*.trx
