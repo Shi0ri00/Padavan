@@ -62,3 +62,8 @@ jobs:
       with:
         tag_name: Padavan
         files: /home/runner/work/Padavan/Padavan/trunk/images/*.trx
+    - name: save seed.config
+      uses: actions/upload-artifact@v4
+      with:
+        name: .config
+        path: /home/runner/work/Padavan/Padavan/trunk/images/*.trx
